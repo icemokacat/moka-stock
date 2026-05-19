@@ -1,0 +1,40 @@
+# 환경변수 (절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+
+# CLAUDE 로컬 메모리 (개인 설정)
+CLAUDE.local.md
+
+# Java / Gradle
+.gradle/
+build/
+*.class
+*.jar
+!gradle-wrapper.jar
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node.js / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Docker
+infra/grafana/data/
+infra/prometheus/data/
+
+# Logs
+*.log
+logs/
