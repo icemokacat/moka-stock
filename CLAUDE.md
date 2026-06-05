@@ -16,7 +16,6 @@ moka-stock/
 │   ├── dashboard-service/   환율 · 코스피 · Redis TTL 캐시
 │   ├── ai-service/          Claude API 스트리밍 · 스크리닝 · 종목 저장
 │   └── board-service/       자유게시판 · Redis 조회수 카운터
-├── frontend/                React + TypeScript (Vite) — Claude Code 담당
 └── infra/                   docker-compose, prometheus, grafana
 ```
 

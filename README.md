@@ -70,7 +70,6 @@ moka-stock/
 │   ├── dashboard-service/
 │   ├── ai-service/
 │   └── board-service/
-├── frontend/
 ├── infra/
 │   ├── docker-compose.yml
 │   ├── prometheus/
@@ -125,9 +124,9 @@ docker-compose -f infra/docker-compose.yml up -d
 # 서비스 실행 (예: auth)
 ./gradlew :services:auth-service:bootRun
 
-# 프론트엔드
-cd frontend && npm install && npm run dev
 ```
+## 프론트엔드
+[https://github.com/icemokacat/moka-stock-front](dd)
 
 ---
 
