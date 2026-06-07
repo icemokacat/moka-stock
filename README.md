@@ -19,20 +19,20 @@
 
 ## 기술 스택
 
-| 영역       | 기술                                              |
-|------------|---------------------------------------------------|
-| Backend    | Java 21 / Spring Boot 3.x                         |
-| API Gateway| Spring Cloud Gateway                              |
-| 인증       | Spring Security + JWT + OAuth2                    |
+| 영역       | 기술                                          |
+|------------|---------------------------------------------|
+| Backend    | Java 21 / Spring Boot 3.x                   |
+| API Gateway| Spring Cloud Gateway                        |
+| 인증       | Spring Security + JWT + OAuth2              |
 | DB         | PostgreSQL 16 (서비스별 DB 분리)                  |
-| Cache      | Redis 7                                           |
-| AI 연동    | Claude API (Anthropic) — claude-sonnet-4          |
+| Cache      | Redis 7                                     |
+| AI 연동    | Claude API (Anthropic) — claude-sonnet-4    |
 | 외부 데이터| 환율/지수 공공 API                                |
-| 모니터링   | Micrometer + Prometheus + Grafana                 |
-| 컨테이너   | Docker / Docker Compose                           |
-| CI/CD      | GitHub Actions                                    |
-| Frontend   | React 18 + TypeScript + Vite + Tailwind CSS       |
-| 테스트     | JUnit 5 + Mockito + Testcontainers                |
+| 모니터링   | Micrometer + Prometheus + Grafana           |
+| 컨테이너   | Docker / Docker Compose                     |
+| CI/CD      | GitHub Actions                              |
+| Frontend   | React 18 + TypeScript + Vite + Tailwind CSS |
+| 테스트     | JUnit 5 + Mockito + Testcontainers          |
 
 ---
 
